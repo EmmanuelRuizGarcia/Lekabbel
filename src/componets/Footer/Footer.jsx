@@ -1,5 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
-  return <div></div>;
+  const [t, i18n] = useTranslation("global");
+
+  return <div>Footer</div>;
 };
 
 export default Footer;
