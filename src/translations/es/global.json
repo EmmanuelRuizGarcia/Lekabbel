@@ -3,8 +3,20 @@
         "logoSubTitle": "personal",
         "menuAbout": "Acerca de",
         "menuServices": "Servicios",
-        "menuPortfolio": "Carpeta de trabajos",
+        "menuPortfolio": "Catálogo de trabajos",
         "menuContact": "Contacto",
         "menuTellMe": "Dime"
+    },
+    "hero": {
+        "leftContentGreetings": "Hola bienvenido",
+        "leftContentIAm": "Yo soy Lekabbel",
+        "leftContentKindOfMagic": "Magia blanca",
+        "leftContentHireMe": "Contratame",
+        "leftContentSeePortfolio": "Ver catálogo de trabajos",
+        "leftContentFollowMe": "Sígueme:",
+        "rightContentYearsOfExperience": "Años de experiencia",
+        "rightContentSuccessRate": "Tasa de éxito",
+        "rightContentHappyCustomers": "Clientes felices",
+        "rightContentCompletedProjects": "Proyectos completados"
     }
 }

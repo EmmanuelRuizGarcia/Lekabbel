@@ -6,5 +6,17 @@
         "menuPortfolio": "Protfolio",
         "menuContact": "Contact",
         "menuTellMe": "Tell me"
+    },
+    "hero": {
+        "leftContentGreetings": "Hello welcome",
+        "leftContentIAm": "I'm Lekabbel",
+        "leftContentKindOfMagic": "White magic",
+        "leftContentHireMe": "Hire me",
+        "leftContentSeePortfolio": "See portfolio",
+        "leftContentFollowMe": "Follow me:",
+        "rightContentYearsOfExperience": "Years of experience",
+        "rightContentSuccessRate": "Success rate",
+        "rightContentHappyCustomers": "Happy customers",
+        "rightContentCompletedProjects": "Completed projects"
     }
 }
