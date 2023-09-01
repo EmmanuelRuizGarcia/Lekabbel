@@ -3,6 +3,8 @@ import Aos from "aos";
 
 import "./App.css";
 
+import Header from "./componets/Header/Header";
+
 function App() {
   useEffect(() => {
     Aos.init();
@@ -10,7 +12,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-indigo-600 text-2xl font-[500]">Hola mundo</h1>
+      <Header />
     </>
   );
 }
