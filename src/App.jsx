@@ -4,6 +4,7 @@ import Aos from "aos";
 import "./App.css";
 
 import Header from "./componets/Header/Header";
+import Footer from "./componets/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <Footer />
     </>
   );
 }
