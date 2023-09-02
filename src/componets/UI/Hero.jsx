@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import heroImg from "../../assets/images/hero.svg";
+import heroImg from "../../assets/images/hero.png";
 import CountUp from "react-countup";
 
 const Hero = () => {
@@ -37,8 +37,7 @@ const Hero = () => {
             >
               <a className="flex items-center gap-2" href="#contact">
                 <button className="bg-primaryColor text-white font-[500] py-2 px-4 rounded-[8px] hover:font-[500] hover:bg-smallTextColor hover:text-white ease-in duration-700">
-                  <i className="ri-mail-line"></i>
-                  {t("hero.leftContentHireMe")}
+                  <i className="ri-mail-line"></i> {t("hero.leftContentHireMe")}
                 </button>
               </a>
               <a
@@ -62,13 +61,13 @@ const Hero = () => {
               accusantium error dolores?
             </p>
             <div className="flex items-center gap-9 mt-14">
-              <span className="text-smallTextColor text-[15px] font-[600]">
+              <span className="text-smallTextColor text-[15px] font-[400]">
                 {t("hero.leftContentFollowMe")}
               </span>
               <span>
                 <a
                   href="#facebook"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  className="text-smallTextColor text-[18px] font-[400]"
                 >
                   <i className="ri-facebook-circle-fill"></i>
                 </a>
@@ -76,7 +75,7 @@ const Hero = () => {
               <span>
                 <a
                   href="#instagram"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  className="text-smallTextColor text-[18px] font-[400]"
                 >
                   <i className="ri-instagram-fill"></i>
                 </a>
@@ -84,7 +83,7 @@ const Hero = () => {
               <span>
                 <a
                   href="#youtube"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  className="text-smallTextColor text-[18px] font-[400]"
                 >
                   <i className="ri-youtube-fill"></i>
                 </a>
@@ -92,7 +91,7 @@ const Hero = () => {
               <span>
                 <a
                   href="#whatsapp"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  className="text-smallTextColor text-[18px] font-[400]"
                 >
                   <i className="ri-whatsapp-fill"></i>
                 </a>
@@ -103,7 +102,7 @@ const Hero = () => {
           {/* ======  Hero Image start  ====== */}
           <div className="basis-1/2 mt-10 sm:mt-0">
             <figure className="flex items-center justify-center">
-              <img src={heroImg} alt="" />
+              <img className="rounded-full w-96 h-96" src={heroImg} alt="" />
             </figure>
           </div>
           {/* ======  Hero Image end  ====== */}

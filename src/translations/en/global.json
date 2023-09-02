@@ -9,14 +9,17 @@
     },
     "hero": {
         "leftContentGreetings": "Hello welcome",
-        "leftContentIAm": "I'm Lekabbel",
+        "leftContentIAm": "Lekabbel",
         "leftContentKindOfMagic": "White magic",
-        "leftContentHireMe": "Hire me",
+        "leftContentHireMe": "Inquiries",
         "leftContentSeePortfolio": "See portfolio",
         "leftContentFollowMe": "Follow me:",
         "rightContentYearsOfExperience": "Years of experience",
         "rightContentSuccessRate": "Success rate",
         "rightContentHappyCustomers": "Happy customers",
         "rightContentCompletedProjects": "Completed projects"
+    },
+    "services": {
+        "contentGreetings": "How can I help you?"
     }
 }

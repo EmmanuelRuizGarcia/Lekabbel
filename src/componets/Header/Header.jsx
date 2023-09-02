@@ -1,5 +1,8 @@
 import { useTranslation } from "react-i18next";
 
+import mexFlag from "../../assets/images/mexico.png";
+import usaFlag from "../../assets/images/usa.png";
+
 const Header = () => {
   const [t, i18n] = useTranslation("global");
 
@@ -50,20 +53,20 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <button
-                  className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300"
+                <img
+                  className="flex items-center gap-2 py-1 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 h-11 w-22 cursor-pointer"
                   onClick={() => handleChangeLanguage("en")}
-                >
-                  Eng
-                </button>
+                  src={usaFlag}
+                  alt=""
+                />
               </li>
               <li>
-                <button
-                  className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300"
+                <img
+                  className="flex items-center gap-2 py-1 px-4 rounded-[8px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 h-11 w-22 cursor-pointer"
                   onClick={() => handleChangeLanguage("es")}
-                >
-                  Esp
-                </button>
+                  src={mexFlag}
+                  alt=""
+                />
               </li>
             </ul>
           </div>

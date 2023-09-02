@@ -9,14 +9,17 @@
     },
     "hero": {
         "leftContentGreetings": "Hola bienvenido",
-        "leftContentIAm": "Yo soy Lekabbel",
+        "leftContentIAm": "Lekabbel",
         "leftContentKindOfMagic": "Magia blanca",
-        "leftContentHireMe": "Contratame",
+        "leftContentHireMe": "Consultas",
         "leftContentSeePortfolio": "Ver catálogo de trabajos",
         "leftContentFollowMe": "Sígueme:",
         "rightContentYearsOfExperience": "Años de experiencia",
         "rightContentSuccessRate": "Tasa de éxito",
         "rightContentHappyCustomers": "Clientes felices",
         "rightContentCompletedProjects": "Proyectos completados"
+    },
+    "services": {
+        "contentGreetings": "¿En qué puedo yo ayudarte?"
     }
 }
